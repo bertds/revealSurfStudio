@@ -1,0 +1,54 @@
+body{
+    background:url("../images/background-dark.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #5E5E5F;
+    color: white;
+}
+
+.reveal{
+  color:white;
+}
+
+.reveal section img{
+  background: none;
+}
+
+.vaduo_aside_logo{
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    z-index: 30;
+    right: 120px;
+    bottom: 10px;
+    -webkit-user-select: none;
+    background-image: url("../images/logo-dark.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.reveal pre{
+    width: 100%;
+}
+
+.reveal img.img-inline{
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+}
+
+.reveal img.img-inline-big{
+    width: 128px;
+    height: 128px;
+    vertical-align: bottom;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3{
+    color: #1CBAC8;
+}
+.reveal h4,
+.reveal h5{
+    color: white;
+}
